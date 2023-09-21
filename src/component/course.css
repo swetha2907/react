@@ -1,0 +1,33 @@
+.course1{
+    display: flex;
+    background-color: rgb(166, 218, 224);
+    padding:30px;
+    margin: 10px;
+    
+
+
+}.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 100px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add some space between the image and heading */
+  }
+  
+  .heading1 {
+    /* margin: 0; Remove default margin */
+    text-decoration: none;
+    color: black;
+  }
+.innercourse{
+    padding: 3px;
+    margin:20px;
+
+
+}
+img{
+    float: left;
+
+}

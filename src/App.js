@@ -1,22 +1,26 @@
-import logo from './logo.svg';
+import Navbar from './component/navhtml';
+import './component/navbar.css';
+import Course from './component/coursehtml';
+import Navbar2 from './component/navbar2html';
+import Display from './component/displayhtml';
+import Blog from './component/bloghtml';
+import Usage from './component/usagehtml';
 import './App.css';
+import PaginatedList from './component/pagination';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Navbar />
+      <Course />
+      <Navbar2 />
+      <Display />
+      <Blog />
+      {/* <PaginatedList/> */}
+      <Usage/>
+
+     
       </header>
     </div>
   );

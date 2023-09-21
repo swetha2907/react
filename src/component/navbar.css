@@ -1,0 +1,114 @@
+/* Navbar.css (or define within a styled-components file) */
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color:black;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 100;
+  }.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 1vh;  */
+    /* padding: 0 10px; */
+    padding-right: 250px; 
+   
+    gap: 5px;
+  }.innertext{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }.button{
+    margin:10px;
+    padding:20px;
+
+  }.rrr{
+    display: flex;
+  }
+  .read{
+    margin: 20px;
+  }.align2{
+    display: iflex;
+    /* align-items: left; */
+    
+    
+  }.items1{
+    padding: 20px;
+    margin: 20px;
+
+  }
+  .background-container {
+    background-image: url('C:\Users\ELCOT\reactprojectvlinder\webdesign\public\blogBackground1.jpg'); /* Replace with your image file and correct path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+  }.items{
+    padding: 20px;
+    margin: 20px;
+  }
+  .align{
+    display: flex;
+    /* margin:auto; */
+    position: relative;
+    /* padding:5px; */
+
+  }
+  img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .navbar-list {
+    
+    display: flex;
+   align-items:center;
+   align-content: center;
+   justify-content: center;
+
+
+  }
+  .menu{
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  
+  .navbar-item {
+    display: flex;
+    text-align: left;
+    align-items:start;
+    margin: 0 20px; /* Adjust the space between words */
+  }button{
+    padding: 10px;
+  }
+  .navbar-item1 {
+    display: flex;
+    align-items: left;
+    /* margin: 100 20px; Adjust the space between words */
+    
+    
+  }.left{
+    display: flex;
+    align-items: left;
+  }
+  
+  .navbar-item a {
+    text-decoration: underline;
+    color: white;
+  }
+  .contact{
+    background-color: gray;
+    padding: 10px;
+  }
+  .read{
+    background-color: green;
+    padding: 10px;
+  }
+  

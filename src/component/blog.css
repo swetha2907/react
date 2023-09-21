@@ -1,0 +1,52 @@
+.blog1{
+    display: flex;
+    background-color: rgb(180, 212, 243);
+    padding:2px;
+    margin: 80px;
+
+    
+
+
+}.blog2{
+    padding: 10px;
+    margin: 10px;
+}
+.background-container1 {
+    background-image: url('C:\Users\ELCOT\reactprojectvlinder\webdesign\public\blogBackground2.jpg'); /* Replace with your image file and correct path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+   
+  }
+
+
+.heading{
+    text-align: center;
+    margin: 20px;
+    color:white;
+    padding: 20px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+.innerblog{
+     padding: 8px;
+    margin:4px;
+    background-color: white;
+    height: 350px;
+    width: 600px;
+
+}.sep{
+    height: 20px;
+    color: black;
+    padding:30px;
+    
+}
+.author{
+    text-align: center;
+    /* position: fixed; */
+    /* position: absolute; */
+  /* bottom: 0; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
